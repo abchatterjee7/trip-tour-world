@@ -1,0 +1,33 @@
+# Render Blueprint: New + > Blueprint > connect this repo. Secrets are entered in the dashboard (sync: false).
+services:
+  - type: web
+    name: trip-tour-world
+    runtime: docker
+    plan: free
+    healthCheckPath: /actuator/health
+    autoDeploy: true
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL_ID
+        value: openai/gpt-oss-20b
+      - key: AVIATIONSTACK_API_KEY
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+      - key: TAVILY_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: DEFAULT_ORIGIN_IATA
+        value: DEL
+      - key: LANGSMITH_TRACING
+        value: "true"
+      - key: LANGSMITH_ENDPOINT
+        value: https://api.smith.langchain.com
+      - key: LANGSMITH_API_KEY
+        sync: false
+      - key: LANGSMITH_PROJECT
+        value: TripTourWorld
+      - key: APP_API_KEY
+        generateValue: true   # Render creates a random key; copy it from the dashboard

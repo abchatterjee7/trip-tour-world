@@ -1,0 +1,114 @@
+iata,city,country,aliases
+DEL,Delhi,India,new delhi
+BOM,Mumbai,India,bombay
+BLR,Bengaluru,India,bangalore
+HYD,Hyderabad,India,
+MAA,Chennai,India,madras
+CCU,Kolkata,India,calcutta
+GOI,Goa,India,panaji;north goa;south goa
+PNQ,Pune,India,
+AMD,Ahmedabad,India,
+JAI,Jaipur,India,
+COK,Kochi,India,cochin;kerala;munnar
+TRV,Thiruvananthapuram,India,trivandrum;kovalam
+LKO,Lucknow,India,
+VNS,Varanasi,India,banaras;benares
+ATQ,Amritsar,India,
+IXC,Chandigarh,India,
+SXR,Srinagar,India,kashmir
+IXL,Leh,India,ladakh
+GAU,Guwahati,India,assam
+IXB,Bagdogra,India,darjeeling;siliguri
+PAT,Patna,India,
+BBI,Bhubaneswar,India,puri
+IDR,Indore,India,
+NAG,Nagpur,India,
+IXZ,Port Blair,India,andaman;andamans
+UDR,Udaipur,India,
+JDH,Jodhpur,India,
+DED,Dehradun,India,rishikesh;mussoorie;haridwar
+CJB,Coimbatore,India,ooty
+VTZ,Visakhapatnam,India,vizag
+TIR,Tirupati,India,
+IXE,Mangaluru,India,mangalore
+CCJ,Kozhikode,India,calicut
+IXM,Madurai,India,
+KUU,Kullu,India,manali;kullu manali
+SLV,Shimla,India,
+AGR,Agra,India,taj mahal
+DXB,Dubai,United Arab Emirates,uae
+AUH,Abu Dhabi,United Arab Emirates,
+DOH,Doha,Qatar,
+MCT,Muscat,Oman,oman
+RUH,Riyadh,Saudi Arabia,
+JED,Jeddah,Saudi Arabia,
+TLV,Tel Aviv,Israel,
+IST,Istanbul,Turkey,turkey
+CAI,Cairo,Egypt,egypt
+SIN,Singapore,Singapore,
+BKK,Bangkok,Thailand,thailand
+HKT,Phuket,Thailand,
+KUL,Kuala Lumpur,Malaysia,malaysia
+DPS,Bali,Indonesia,denpasar
+CGK,Jakarta,Indonesia,
+SGN,Ho Chi Minh City,Vietnam,saigon;vietnam
+HAN,Hanoi,Vietnam,
+MNL,Manila,Philippines,
+REP,Siem Reap,Cambodia,angkor wat;cambodia
+HKG,Hong Kong,Hong Kong,
+TPE,Taipei,Taiwan,taiwan
+HND,Tokyo,Japan,japan
+KIX,Osaka,Japan,kyoto
+ICN,Seoul,South Korea,south korea;korea
+PEK,Beijing,China,
+PVG,Shanghai,China,
+CMB,Colombo,Sri Lanka,sri lanka
+MLE,Male,Maldives,maldives
+KTM,Kathmandu,Nepal,nepal
+DAC,Dhaka,Bangladesh,
+PBH,Paro,Bhutan,bhutan
+MRU,Mauritius,Mauritius,
+SEZ,Seychelles,Seychelles,
+LHR,London,United Kingdom,uk;england
+CDG,Paris,France,france
+AMS,Amsterdam,Netherlands,netherlands
+FRA,Frankfurt,Germany,
+MUC,Munich,Germany,
+ZRH,Zurich,Switzerland,switzerland;interlaken;lucerne
+GVA,Geneva,Switzerland,
+FCO,Rome,Italy,italy
+MXP,Milan,Italy,
+VCE,Venice,Italy,
+BCN,Barcelona,Spain,spain
+MAD,Madrid,Spain,
+LIS,Lisbon,Portugal,portugal
+ATH,Athens,Greece,greece;santorini
+DUB,Dublin,Ireland,ireland
+CPH,Copenhagen,Denmark,denmark
+ARN,Stockholm,Sweden,sweden
+OSL,Oslo,Norway,norway
+HEL,Helsinki,Finland,finland
+VIE,Vienna,Austria,austria
+PRG,Prague,Czech Republic,czechia
+BUD,Budapest,Hungary,hungary
+WAW,Warsaw,Poland,
+JFK,New York,United States,nyc;new york city
+LAX,Los Angeles,United States,
+SFO,San Francisco,United States,
+ORD,Chicago,United States,
+MIA,Miami,United States,
+LAS,Las Vegas,United States,
+SEA,Seattle,United States,
+BOS,Boston,United States,
+IAD,Washington,United States,washington dc
+YYZ,Toronto,Canada,
+YVR,Vancouver,Canada,
+MEX,Mexico City,Mexico,mexico
+GRU,Sao Paulo,Brazil,
+EZE,Buenos Aires,Argentina,
+SYD,Sydney,Australia,australia
+MEL,Melbourne,Australia,
+AKL,Auckland,New Zealand,new zealand
+JNB,Johannesburg,South Africa,
+CPT,Cape Town,South Africa,
+NBO,Nairobi,Kenya,kenya

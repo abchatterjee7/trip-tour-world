@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripTourWorld · AI multi-agent trip planner</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="bg"></div>
+  <main class="wrap">
+    <header class="top">
+      <div class="brand"><img src="/favicon.svg" alt="" width="34" height="34"><span>TripTourWorld</span></div>
+      <div id="health" class="health" title="Backend status">connecting…</div>
+    </header>
+
+    <section class="hero">
+      <h1>Plan a trip that feels like yours</h1>
+      <p>A supervisor agent picks the right specialists — flights, stays, weather, budget — drafts your itinerary,
+         and waits for <b>your</b> approval before finalizing.</p>
+    </section>
+
+    <section class="card">
+      <div id="keyRow" class="key-row hidden">
+        <label for="apiKey">API key</label>
+        <input id="apiKey" type="password" placeholder="X-API-Key for this deployment" autocomplete="off">
+      </div>
+      <textarea id="prompt" maxlength="1500" rows="3"
+        placeholder="Plan a 5-day Goa trip from Hyderabad with flights, stays and sightseeing under ₹40,000…"></textarea>
+      <div class="actions">
+        <div class="chips" id="examples"></div>
+        <button id="planBtn" class="primary">Plan my trip</button>
+      </div>
+    </section>
+
+    <div id="error" class="error hidden" role="alert"></div>
+
+    <section id="run" class="card hidden">
+      <div class="run-head">
+        <h2>Agent workflow</h2>
+        <span id="statusPill" class="pill">—</span>
+      </div>
+      <ol id="steps" class="steps"></ol>
+      <p id="reasoning" class="muted"></p>
+      <div id="agentChips" class="chips"></div>
+    </section>
+
+    <section id="draft" class="card hidden">
+      <h2>Draft itinerary <span class="muted small">— human review required</span></h2>
+      <div id="draftBody" class="md"></div>
+      <textarea id="feedback" rows="2" maxlength="2000" placeholder="Want changes? Describe them here (required to request a revision)…"></textarea>
+      <div class="actions end">
+        <button id="reviseBtn" class="ghost">Request changes</button>
+        <button id="approveBtn" class="primary">Approve &amp; finalize</button>
+      </div>
+    </section>
+
+    <section id="final" class="card hidden">
+      <h2>Your trip plan</h2>
+      <div id="finalBody" class="md"></div>
+      <details id="raw"><summary>Agent outputs &amp; trace details</summary>
+        <div class="tabs" id="rawTabs"></div>
+        <pre id="rawBody"></pre>
+      </details>
+    </section>
+
+    <section class="card">
+      <div class="run-head"><h2>Recent trips</h2><button id="refreshBtn" class="ghost small">Refresh</button></div>
+      <ul id="history" class="history"></ul>
+    </section>
+
+    <footer>Spring Boot 4 · LangGraph4j · Groq · NeonDB · LangSmith — AI output may be wrong; verify before booking.</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

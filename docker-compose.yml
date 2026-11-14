@@ -1,0 +1,15 @@
+# Local / VPS (Hostinger) run:   cp .env.example .env   # fill in real values
+#                                 docker compose up --build -d
+services:
+  trip-tour-world:
+    build: .
+    image: trip-tour-world:latest
+    container_name: trip-tour-world
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+    volumes:
+      # The app reads /app/.env itself, so quotes / spaces around '=' (as in .env.example) are fine.
+      - ./.env:/app/.env:ro

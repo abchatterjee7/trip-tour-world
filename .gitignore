@@ -1,0 +1,12 @@
+# secrets - NEVER commit real credentials
+.env
+.env.*
+!.env.example
+
+# build / IDE
+target/
+*.log
+.idea/
+*.iml
+.vscode/
+.DS_Store
