@@ -64,7 +64,7 @@ src/test/java/       unit + integration tests (fake LLM, fake HTTP server, real 
 
 ### Prerequisites
 * **JDK 21** and **Maven 3.9+** (or use just Docker)
-* Free API keys (only **Groq** is strictly required — everything else degrades gracefully):
+* Free API keys (only **Groq** is strictly required):
 
 | Service | Why | Get it |
 |---|---|---|
