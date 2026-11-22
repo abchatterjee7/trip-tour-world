@@ -2,7 +2,7 @@
 
 **A production-style, multi-agent AI trip planner built with Spring Boot 4, LangGraph4j and Groq.**
 A supervisor agent decides which specialists (flights, hotels, weather, budget) are needed, an itinerary agent drafts the plan,
-a **human reviews it (human-in-the-loop)**, and a final agent produces the polished answer — all guarded by input/output
+a **human reviews it (human-in-the-loop)**, and a final agent produces the polished answer, all guarded by input/output
 guardrails, traced end-to-end in **LangSmith**, persisted in **NeonDB (PostgreSQL)**, evaluated by a built-in **eval harness**,
 and shipped as a **Docker** image you can deploy on Render, Hostinger or any container host.
 
