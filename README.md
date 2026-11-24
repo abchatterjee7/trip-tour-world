@@ -227,10 +227,13 @@ keys never included in error messages, container runs as a non-root user.
 
 - Landing Page
 ![landing page](screenshots/1.png)
+
 - Planning the Trip
 ![planning the trip](screenshots/2.png)
+
 - Neon PostgreSQL DB
 ![database](screenshots/3.png)
+
 - Langsmith observibility
 ![langsmith](screenshots/4.png)
 
