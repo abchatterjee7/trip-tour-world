@@ -202,7 +202,7 @@ keys never included in error messages, container runs as a non-root user.
 
 ---
 
-## ⚙️ Configuration reference
+## ⚙️ Configuration references
 
 | Variable | Required | Default | Notes |
 |---|---|---|---|
