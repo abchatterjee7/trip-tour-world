@@ -143,7 +143,7 @@ curl -s -X POST localhost:8080/api/trips/$ID/review -H "X-API-Key: $KEY" -H "Con
 curl -s -X POST localhost:8080/api/trips/$ID/review -H "X-API-Key: $KEY" -H "Content-Type: application/json" \
      -d '{"approved":true}'                                                    # finalize
 ```
-(Windows: use `curl.exe`, or just use the web UI.)
+(Windows: use `curl.exe`, or just use the web UI)
 
 ---
 
